@@ -1,0 +1,87 @@
+@media (max-width:600px) {
+    .header-content-3{
+        display: none;
+    }
+    .home-container p{
+        font-size:20px ;
+    }
+    .form-container{
+        align-items: center;
+    }
+    .from{
+        flex-direction: column;
+        width: 70%;
+    }
+    .brand-content, .body-type-content{
+        width: 30%;
+    }
+    .brand-content svg, .body-type-content svg{
+        width:60% ;
+    }
+    .brand-content p, .body-type-content p{
+        font-size: 13px;
+    }
+    .collection-section-header, .how-section-header, .service-header{
+        width: 65%;
+    }
+    .collection-section-header ul li{
+        display: block;
+        margin: 10px 0px;
+    }
+    .collection-grid,
+    .service-grid{
+        grid-template-columns: auto;
+    }
+    .how-container{
+        flex-direction: column;
+    }
+    .how-container .car-img{
+        width: 100%;
+        height: auto;
+    }
+    .car-img img{
+        width:70%;
+        height: auto;
+    }
+    .how-content-empy{
+        display: none;
+    }
+    .how-content-steps{
+        position: relative;
+        width: 100%;
+    }
+    .comment-section-button button{
+        height: 30px;
+    width: 30px;
+    }
+    .comment-section-header h1{
+        font-size: 20px;
+    }
+    .downloa-section-container{
+        flex-direction: column;
+    }
+
+    .downloa-section-container > .downloa-content{
+       width: 100%;
+       padding: 0; 
+       margin: 0;
+    }
+    .downloa-section-container .downloa-button-container{
+        flex-direction: column;
+    }
+    .downloa-button{
+        margin: 10px 0px;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-logo, .footer-nav, .footer-social{
+        width: 100%;
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .footer-logo{
+        display: flex;
+        justify-content: center;
+    }
+}
